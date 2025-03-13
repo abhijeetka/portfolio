@@ -1,0 +1,515 @@
+{
+  "navItems": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "href": "#education"
+    },
+    {
+      "id": "certifications",
+      "label": "Certifications",
+      "href": "#certifications"
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "href": "#tools"
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "href": "/devops"
+    },
+    {
+      "id": "blogs",
+      "label": "Blogs",
+      "href": "/blogs"
+    }
+  ],
+  "personal": {
+    "name": "Abhijeet Kamble",
+    "title": "DevOps Lead & Cloud Infrastructure Architect",
+    "greeting": "Hello, I'm",
+    "summary": "Experienced DevOps Lead with 12+ years specializing in cloud infrastructure, CI/CD pipelines, and containerization. Passionate about automation and building scalable, resilient systems.",
+    "avatar": "/placeholder.svg?height=400&width=400",
+    "email": "abhijeet.kamble619@gmail.com",
+    "phone": "+91 9028308428",
+    "location": "Pune, India",
+    "github": "https://github.com/abhijeetka",
+    "linkedin": "https://linkedin.com/in/abhijeetkam",
+    "resumeUrl": "#"
+  },
+  "about": {
+    "description": "I'm a DevOps Lead with extensive experience in designing and implementing cloud infrastructure, CI/CD pipelines, and containerization strategies. I specialize in automating processes, optimizing workflows, and ensuring system reliability and scalability.",
+    "highlights": [
+      {
+        "title": "Cloud Infrastructure",
+        "description": "Designed and implemented scalable cloud architectures on AWS, Azure, and GCP, reducing infrastructure costs by 30%.",
+        "tags": ["AWS", "Azure", "GCP", "IaC", "Terraform"]
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "description": "Built robust CI/CD pipelines that reduced deployment time from days to minutes and improved release reliability.",
+        "tags": ["Jenkins", "GitHub Actions", "GitLab CI", "ArgoCD"]
+      },
+      {
+        "title": "Containerization",
+        "description": "Led containerization initiatives using Docker and Kubernetes, improving application portability and resource utilization.",
+        "tags": ["Docker", "Kubernetes", "Helm", "Microservices"]
+      }
+    ]
+  },
+  "skills": {
+    "description": "My technical expertise spans across various DevOps and cloud technologies, with a focus on automation, infrastructure as code, and containerization.",
+    "categories": {
+      "Cloud Platforms": [
+        {
+          "name": "AWS",
+          "level": 95
+        },
+        {
+          "name": "Azure",
+          "level": 85
+        },
+        {
+          "name": "Google Cloud Platform",
+          "level": 60
+        }
+      ],
+      "Infrastructure as Code": [
+        {
+          "name": "Terraform",
+          "level": 90
+        },
+        {
+          "name": "CloudFormation",
+          "level": 75
+        },
+        {
+          "name": "Ansible",
+          "level": 80
+        },
+        {
+          "name": "Pulumi",
+          "level": 75
+        }
+      ],
+      "Containerization & Orchestration": [
+        {
+          "name": "Docker",
+          "level": 95
+        },
+        {
+          "name": "Kubernetes",
+          "level": 90
+        },
+        {
+          "name": "Helm",
+          "level": 85
+        },
+        {
+          "name": "OpenShift",
+          "level": 55
+        }
+      ],
+      "CI/CD & Automation": [
+        {
+          "name": "Jenkins",
+          "level": 90
+        },
+        {
+          "name": "GitHub Actions",
+          "level": 85
+        },
+        {
+          "name": "GitLab CI",
+          "level": 80
+        },
+        {
+          "name": "ArgoCD",
+          "level": 85
+        }
+      ]
+    }
+  },
+  "experience": {
+    "description": "Over the years, I've worked with various organizations to implement DevOps practices, automate workflows, and build scalable infrastructure.",
+    "positions": [
+      {
+        "title": "Product Development Engineer 4",
+        "company": "Calibo",
+        "period": "2021 - Present",
+        "description": "Leading a team of DevOps engineers to design and implement cloud infrastructure and CI/CD pipelines for enterprise clients.",
+        "responsibilities": [
+          "Architected and implemented multi-cloud infrastructure using Terraform and AWS CDK",
+          "Led migration of legacy applications to containerized microservices using Kubernetes",
+          "Designed and implemented GitOps workflows with ArgoCD and Flux",
+          "Reduced infrastructure costs by 35% through optimization and automation",
+          "Mentored junior engineers and established DevOps best practices"
+        ],
+        "technologies": ["AWS", "Azure", "Kubernetes", "Terraform", "ArgoCD", "GitHub Actions", "Jenkins", "Lambda", "Sonar", "Jfrog Artifactory", "New Relic"]
+      },
+      {
+        "title": "Senior Devops Consultant",
+        "company": "CDK Global",
+        "period": "2016 - 2021",
+        "description": "Responsible for designing and implementing cloud infrastructure and CI/CD pipelines for a SaaS platform serving millions of users.",
+        "responsibilities": [
+          "Built and maintained Kubernetes clusters on AWS EKS",
+          "Implemented infrastructure as code using Terraform and CloudFormation",
+          "Designed and maintained CI/CD pipelines using Jenkins and GitLab CI",
+          "Set up comprehensive monitoring and alerting with Prometheus, Grafana, and ELK stack",
+          "Automated disaster recovery procedures reducing RTO from days to hours"
+        ],
+        "technologies": ["AWS", "Kubernetes", "Docker", "Terraform", "Jenkins", "Prometheus", "ELK Stack"]
+      },
+      {
+        "title": "DevOps Engineer",
+        "company": "DataDriven Inc.",
+        "period": "2015 - 2017",
+        "description": "Implemented DevOps practices and tools to support the development and deployment of data analytics applications.",
+        "responsibilities": [
+          "Migrated on-premises infrastructure to AWS, reducing operational costs by 40%",
+          "Containerized legacy applications using Docker",
+          "Implemented CI/CD pipelines with Jenkins",
+          "Automated infrastructure provisioning with Ansible and CloudFormation",
+          "Set up monitoring and logging solutions using Nagios and ELK stack"
+        ],
+        "technologies": ["AWS", "Docker", "Jenkins", "Ansible", "CloudFormation", "Nagios", "ELK Stack"]
+      }
+    ]
+  },
+  "projects": {
+    "description": "Here are some of the key projects I've worked on that showcase my DevOps and infrastructure expertise.",
+    "items": [
+      {
+        "title": "Multi-Cloud Kubernetes Platform",
+        "description": "Designed and implemented a multi-cloud Kubernetes platform that enables seamless deployment across AWS, Azure, and GCP.",
+        "image": "/placeholder.svg?height=400&width=600",
+        "technologies": ["Kubernetes", "Terraform", "ArgoCD", "Istio", "Prometheus"],
+        "liveUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "title": "GitOps CI/CD Pipeline",
+        "description": "Built a GitOps-based CI/CD pipeline that automates the entire software delivery process from code commit to production deployment.",
+        "image": "/placeholder.svg?height=400&width=600",
+        "technologies": ["GitHub Actions", "ArgoCD", "Helm", "Kubernetes", "Flux"],
+        "liveUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Infrastructure as Code Framework",
+        "description": "Developed a comprehensive IaC framework using Terraform modules to standardize and automate infrastructure provisioning.",
+        "image": "/placeholder.svg?height=400&width=600",
+        "technologies": ["Terraform", "AWS", "Azure", "Python", "Go"],
+        "liveUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Observability Platform",
+        "description": "Implemented a comprehensive observability platform for monitoring, logging, and tracing distributed applications.",
+        "image": "/placeholder.svg?height=400&width=600",
+        "technologies": ["Prometheus", "Grafana", "Loki", "Jaeger", "OpenTelemetry"],
+        "liveUrl": "#",
+        "repoUrl": "#"
+      },
+      {
+        "title": "Automated Disaster Recovery",
+        "description": "Designed and implemented an automated disaster recovery solution that reduces recovery time from days to hours.",
+        "image": "/placeholder.svg?height=400&width=600",
+        "technologies": ["AWS", "Terraform", "Python", "Lambda", "DynamoDB"],
+        "liveUrl": "#",
+        "repoUrl": "#"
+      }
+    ]
+  },
+  "education": {
+    "description": "My academic background has provided me with a strong foundation in computer science and engineering principles.",
+    "items": [
+      {
+        "degree": "M.S. in Computer Science",
+        "institution": "Stanford University",
+        "years": "2012-2014",
+        "description": "Specialized in Distributed Systems and Cloud Computing",
+        "achievements": [
+          "Thesis on 'Optimizing Resource Allocation in Distributed Systems'",
+          "Research assistant in the Cloud Computing Lab",
+          "Published paper on container orchestration techniques"
+        ]
+      },
+      {
+        "degree": "B.S. in Computer Engineering",
+        "institution": "University of California, Berkeley",
+        "years": "2008-2012",
+        "description": "Focus on Software Engineering and Network Systems",
+        "achievements": [
+          "Graduated with honors (3.8 GPA)",
+          "Led team project on automated deployment systems",
+          "Teaching assistant for Operating Systems course"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "description": "I hold several industry-recognized certifications that validate my expertise in cloud platforms and DevOps practices.",
+    "items": [
+      {
+        "name": "AWS Certified DevOps Engineer - Professional",
+        "issuer": "Amazon Web Services",
+        "year": "2022",
+        "description": "Validates technical expertise in provisioning, operating, and managing distributed application systems on the AWS platform"
+      },
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "issuer": "Cloud Native Computing Foundation",
+        "year": "2021",
+        "description": "Demonstrates the ability to perform the responsibilities of Kubernetes administrators"
+      },
+      {
+        "name": "Microsoft Certified: Azure DevOps Engineer Expert",
+        "issuer": "Microsoft",
+        "year": "2020",
+        "description": "Validates expertise in designing and implementing DevOps practices on Microsoft Azure"
+      },
+      {
+        "name": "HashiCorp Certified: Terraform Associate",
+        "issuer": "HashiCorp",
+        "year": "2019",
+        "description": "Validates understanding of infrastructure as code concepts using Terraform"
+      },
+      {
+        "name": "Docker Certified Associate",
+        "issuer": "Docker, Inc.",
+        "year": "2018",
+        "description": "Demonstrates the ability to design, build, and deploy containerized applications"
+      },
+      {
+        "name": "Red Hat Certified Engineer (RHCE)",
+        "issuer": "Red Hat",
+        "year": "2017",
+        "description": "Validates skills in managing and troubleshooting Red Hat Enterprise Linux systems"
+      }
+    ],
+    "logos": [
+      {
+        "name": "AWS",
+        "image": "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png?height=96&width=96&text=AWS"
+      },
+      {
+        "name": "Kubernetes CKA",
+        "image": "https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png?height=96&width=96&text=CNCF"
+      },
+      {
+        "name": "Kubernetes CKS",
+        "image": "https://images.credly.com/size/680x680/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png?height=96&width=96&text=Microsoft"
+      },
+      {
+        "name": "HashiCorp",
+        "image": "https://images.credly.com/size/680x680/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob?height=96&width=96&text=HashiCorp"
+      },
+      {
+        "name": "Docker",
+        "image": "https://k21academy.com/wp-content/uploads/2021/07/DCA_Icon.png?height=96&width=96&text=Docker"
+      },
+      {
+        "name": "GitOpsCertificate",
+        "image": "https://www.credly.com/org/codefresh/badge/gitops-fundamentals?height=96&width=96&text=Gitops Certified"
+      },
+      {
+        "name": "calico",
+        "image": "https://images.credly.com/images/29307826-ca75-40dc-a588-66215c4d495c/image.png?height=96&width=96&text=LF"
+      },
+      {
+        "name": "Istio",
+        "image": "https://images.credly.com/images/d7d4ddc8-7df8-4c03-9343-507b51e0ef99/image.png?height=96&width=96&text=Istio"
+      }
+    ]
+  },
+  "tools": {
+    "description": "I work with a wide range of tools and technologies across the DevOps and cloud infrastructure landscape.",
+    "categories": {
+      "Cloud Platforms": [
+        {
+          "name": "AWS",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg?height=48&width=48&text=AWS"
+        },
+        {
+          "name": "Azure",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg?height=48&width=48&text=Azure"
+        },
+        {
+          "name": "GCP",
+          "logo": "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg?height=48&width=48&text=GCP"
+        }
+      ],
+      "Containerization": [
+        {
+          "name": "Docker",
+          "logo": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png?height=48&width=48&text=Docker"
+        },
+        {
+          "name": "Kubernetes",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg?height=48&width=48&text=K8s"
+        },
+        {
+          "name": "Helm",
+          "logo": "https://www.vectorlogo.zone/logos/helmsh/helmsh-icon.svg?height=48&width=48&text=Helm"
+        },
+        {
+          "name": "Podman",
+          "logo": "/placeholder.svg?height=48&width=48&text=Podman"
+        }
+      ],
+      "CI/CD": [
+        {
+          "name": "Jenkins",
+          "logo": "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg?height=48&width=48&text=Jenkins"
+        },
+        {
+          "name": "GitHub Actions",
+          "logo": "/placeholder.svg?height=48&width=48&text=GH"
+        },
+        {
+          "name": "GitLab CI",
+          "logo": "https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg?height=48&width=48&text=GitLab"
+        },
+        {
+          "name": "ArgoCD",
+          "logo": "https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg?height=48&width=48&text=ArgoCD"
+        },
+        {
+          "name": "CircleCI",
+          "logo": "https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg?height=48&width=48&text=CircleCI"
+        }
+      ],
+      "Infrastructure as Code": [
+        {
+          "name": "Terraform",
+          "logo": "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg?height=48&width=48&text=TF"
+        },
+        {
+          "name": "Ansible",
+          "logo": "https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg?height=48&width=48&text=Ansible"
+        },
+        {
+          "name": "CloudFormation",
+          "logo": "https://www.vectorlogo.zone/logos/amazon_cloudformation/amazon_cloudformation-icon.svg?height=48&width=48&text=CFN"
+        },
+        {
+          "name": "Pulumi",
+          "logo": "https://www.vectorlogo.zone/logos/pulumiio/pulumiio-icon.svg?height=48&width=48&text=Pulumi"
+        }
+      ],
+      "Monitoring & Observability": [
+        {
+          "name": "Prometheus",
+          "logo": "https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg?height=48&width=48&text=Prom"
+        },
+        {
+          "name": "Grafana",
+          "logo": "https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg?height=48&width=48&text=Grafana"
+        },
+        {
+          "name": "ELK Stack",
+          "logo": "/placeholder.svg?height=48&width=48&text=ELK"
+        },
+        {
+          "name": "Datadog",
+          "logo": "https://www.vectorlogo.zone/logos/datadoghq/datadoghq-icon.svg?height=48&width=48&text=Datadog"
+        },
+        {
+          "name": "New Relic",
+          "logo": "https://www.vectorlogo.zone/logos/newrelic/newrelic-icon.svg?height=48&width=48&text=NewRelic"
+        }
+      ],
+      "Security": [
+        {
+          "name": "Vault",
+          "logo": "https://www.vectorlogo.zone/logos/vaultproject/vaultproject-icon.svg?height=48&width=48&text=Vault"
+        },
+        {
+          "name": "Snyk",
+          "logo": "/placeholder.svg?height=48&width=48&text=Snyk"
+        },
+        {
+          "name": "Trivy",
+          "logo": "/placeholder.svg?height=48&width=48&text=Trivy"
+        },
+        {
+          "name": "OPA",
+          "logo": "/placeholder.svg?height=48&width=48&text=OPA"
+        }
+      ],
+      "Programming Languages": [
+        {
+          "name": "Bash",
+          "logo": "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg?height=48&width=48&text=Vault"
+        },
+        {
+          "name": "Python",
+          "logo": "https://www.vectorlogo.zone/logos/python/python-icon.svg?height=48&width=48&text=Snyk"
+        }
+      ],
+      "Cloud Services": [
+        {
+          "name": "AKS",
+          "logo": "/placeholder.svg?height=48&width=48&text=AKS"
+        },
+        {
+          "name": "EKS",
+          "logo": "/placeholder.svg?height=48&width=48&text=EKS"
+        },
+        {
+          "name": "Route53",
+          "logo": "/placeholder.svg?height=48&width=48&text=Route53"
+        },
+        {
+          "name": "EC2",
+          "logo": "/placeholder.svg?height=48&width=48&text=EC2"
+        },
+        {
+          "name": "Certificate Manager",
+          "logo": "/placeholder.svg?height=48&width=48&text=ACM"
+        },
+        {
+          "name": "Ingress",
+          "logo": "/placeholder.svg?height=48&width=48&text=Ingress"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "description": "Interested in working together or have a question? Feel free to reach out!",
+    "email": "abhijeet.kamble619@gmail.com",
+    "phone": "+91 9028308428",
+    "location": "Pune, India",
+    "availability": "Currently available for consulting and contract work. Open to discussing full-time opportunities."
+  }
+}
+
