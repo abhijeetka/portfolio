@@ -26,11 +26,6 @@
       "href": "#projects"
     },
     {
-      "id": "education",
-      "label": "Education",
-      "href": "#education"
-    },
-    {
       "id": "certifications",
       "label": "Certifications",
       "href": "#certifications"
@@ -41,14 +36,9 @@
       "href": "#tools"
     },
     {
-      "id": "devops",
-      "label": "DevOps",
-      "href": "/devops"
-    },
-    {
-      "id": "blogs",
-      "label": "Blogs",
-      "href": "/blogs"
+      "id": "education",
+      "label": "Education",
+      "href": "#education"
     }
   ],
   "personal": {

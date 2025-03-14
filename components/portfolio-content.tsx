@@ -39,12 +39,12 @@ export default function PortfolioContent() {
       <Header navItems={data.navItems} personal={data.personal} />
       <Hero personal={data.personal} />
       <About about={data.about} />
-      <Skills skills={data.skills} />
+      <Skills skills={data.skills} />       
+      <Certifications certifications={data.certifications} />
+      <Tools tools={data.tools} />
       <Experience experience={data.experience} />
       <Projects projects={data.projects} />
       <Education education={data.education} />
-      <Certifications certifications={data.certifications} />
-      <Tools tools={data.tools} />
       <Contact contact={data.contact} />
       <Footer personal={data.personal} />
     </>
