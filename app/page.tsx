@@ -1,5 +1,3 @@
-export const runtime: 'edge' | 'nodejs' = 'edge'
-
 import type { Metadata } from "next"
 import PortfolioContent from "@/components/portfolio-content"
 
