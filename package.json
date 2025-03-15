@@ -45,7 +45,7 @@
     "embla-carousel-react": "^8.0.0",
     "input-otp": "^1.0.1",
     "lucide-react": "^0.294.0",
-    "next": "14.0.4",
+    "next": "15.1.0",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-day-picker": "^8.9.1",
@@ -69,5 +69,6 @@
   },
   "engines": {
     "node": ">=18.17.0"
+
   }
 }
